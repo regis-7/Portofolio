@@ -1,30 +1,47 @@
-# Judson_MUTABAZI_DSE_work_8
+# Judson Mutabazi Portfolio
 
-Personal portfolio project — ready to upload to GitHub.
+A responsive personal portfolio website showcasing skills, projects, and contact details.
 
-## What is included
+## Overview
 
-- `index.html` — main page
-- `css/styles.css` — all styles
-- `js/script.js` — interactive behaviors and validation
-- `assets/` — SVG images (profile and project thumbnails)
-- `README.md` — this file
+This portfolio includes a clean landing page with:
+- a hero section with profile information
+- an about section with animated skill progress bars
+- a project showcase with detail modals
+- a contact form with validation and success feedback
+- responsive behavior for desktop, tablet, and mobile screens
 
-## How to run
+## Project Structure
 
-1. Download or copy the files into a folder named `Judson_MUTABAZI_DSE_work_8`.
-2. Open `index.html` in a web browser.
-3. (Optional) Serve with a static server for best results, e.g. `npx http-server` or `python -m http.server`.
+- `index.html` — main portfolio page
+- `css/styles.css` — layout and styling
+- `js/script.js` — interactive UI logic and form validation
+- `assets/` — images and SVG assets used throughout the site
+- `README.md` — project documentation
+
+## Running Locally
+
+1. Clone or download the repository.
+2. Open `index.html` in your browser.
+3. For a local development server, use one of the following commands:
+   - `npx http-server`
+   - `python -m http.server`
+
+## Features
+
+- Responsive navigation with a mobile hamburger menu
+- Smooth section scrolling
+- Animated skill bars that activate on scroll
+- Project cards with clickable details modals
+- Contact form validation for name, email, and message content
+- Accessible markup with labels, alt text, and keyboard-friendly modal controls
 
 ## Notes
 
-- All requirements from the task are implemented:
-  - Sticky header with navigation (mobile hamburger)
-  - About with animated skill bars (fill when scrolled into view)
-  - Projects: 3 cards, each with View Details modal (ESC to close)
-  - Contact form with validation: name regex, email regex, message char limit, success toast
-  - Responsive layout (desktop / tablet / mobile)
-  - Accessibility: labels, alt text, focus outlines
+This repository is ready to deploy on GitHub Pages or any static hosting platform.
 
 ## Author
-Judson
+Judson Mutabazi
+
+## GitHub
+https://github.com/mutabazijudson/Portfolio
