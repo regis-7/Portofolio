@@ -1,0 +1,91 @@
+<section id="contact" class="section">
+  <div class="section-inner">
+    <div class="section-label">
+      Contact
+      <div></div>
+    </div>
+    <h2 class="section-title">Let's Work Together</h2>
+    <div class="contact-grid">
+      <div>
+        <div class="contact-info-title">Get In Touch</div>
+        <p class="contact-info-desc">
+          I'm always interested in new opportunities and exciting projects.
+          Whether you have a question or just want to say hi, feel free to reach out!
+        </p>
+        <div class="contact-links">
+          <a href="mailto:judson@example.com" class="contact-link">
+            <span class="contact-link-icon">📧</span>
+            <div>
+              <div>judson@example.com</div>
+              <div style="font-size: 0.8rem; opacity: 0.7;">Send me an email</div>
+            </div>
+          </a>
+          <a href="tel:+250783936555" class="contact-link">
+            <span class="contact-link-icon">📱</span>
+            <div>
+              <div>+250 783 936 555</div>
+              <div style="font-size: 0.8rem; opacity: 0.7;">Call me</div>
+            </div>
+          </a>
+          <a href="#" class="contact-link">
+            <span class="contact-link-icon">💼</span>
+            <div>
+              <div>LinkedIn</div>
+              <div style="font-size: 0.8rem; opacity: 0.7;">Connect with me</div>
+            </div>
+          </a>
+          <a href="#" class="contact-link">
+            <span class="contact-link-icon">🐙</span>
+            <div>
+              <div>GitHub</div>
+              <div style="font-size: 0.8rem; opacity: 0.7;">View my code</div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <form class="contact-form" onsubmit="return submitForm(event)">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" id="name" name="name" class="form-input" required>
+          </div>
+          <div class="form-group">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" id="email" name="email" class="form-input" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="subject" class="form-label">Subject</label>
+          <input type="text" id="subject" name="subject" class="form-input" required>
+        </div>
+        <div class="form-group">
+          <label for="message" class="form-label">Message</label>
+          <textarea id="message" name="message" class="form-input" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn-primary" style="width: 100%;">Send Message</button>
+        <div class="form-success">Message sent successfully! I'll get back to you soon.</div>
+      </form>
+    </div>
+    <div class="ai-section">
+      <div class="ai-section::before"></div>
+      <div class="ai-header">
+        <div class="ai-badge">AI Assistant</div>
+        <h3 class="ai-title">Have a Quick Question?</h3>
+      </div>
+      <p class="ai-subtitle">Ask me anything about my experience, skills, or availability!</p>
+      <div class="ai-examples">
+        <button class="ai-example" onclick="askAI('What technologies do you specialize in?')">What technologies do you specialize in?</button>
+        <button class="ai-example" onclick="askAI('Are you available for freelance work?')">Are you available for freelance work?</button>
+        <button class="ai-example" onclick="askAI('Tell me about your recent projects')">Tell me about your recent projects</button>
+      </div>
+      <form class="ai-form" onsubmit="return askAI(null, event)">
+        <input type="text" class="ai-input" placeholder="Ask me anything..." id="ai-input">
+        <button type="submit" class="ai-btn" id="ai-submit">
+          <span>Ask</span>
+          <span style="font-size: 0.8rem;">🤖</span>
+        </button>
+      </form>
+      <div class="ai-response" id="ai-response"></div>
+    </div>
+  </div>
+</section>

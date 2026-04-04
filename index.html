@@ -1,263 +1,103 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>MUTABAZI Judson — Personal Portfolio</title>
-  <meta name="description" content="Judson's personal portfolio" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Judson Mutabazi — IT Portfolio</title>
+  <meta name="description" content="Portfolio of Judson Mutabazi — IT Professional & Software Developer based in Kigali, Rwanda.">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <header class="site-header" id="header">
-    <div class="container header-inner">
-      <a class="brand" href="#home">Judson</a>
-      <button class="nav-toggle" id="navToggle" aria-controls="primaryNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="hamburger"></span>
-      </button>
-      <nav id="primaryNav" class="primary-nav" role="navigation">
-        <ul>
-          <li><a href="#home" data-offset>Home</a></li>
-          <li><a href="#about" data-offset>About</a></li>
-          <li><a href="#projects" data-offset>Projects</a></li>
-          <li><a href="#contact" data-offset>Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
 
-  <main>
-    <!-- HOME -->
-    <section id="home" class="section home-section" tabindex="-1">
-      <div class="container home-hero">
-        <div class="hero-text">
-          <h1>
-            <span class="hero-line">JUDSON</span>
-            <span class="hero-line accent">MUTABAZI</span>
-          </h1>
-          <p class="hero-bio">Crafting digital experiences, solving real-world problems, advancing Rwanda's tech ecosystem through thoughtful design and code.</p>
-          <p class="hero-cta">
-            <a class="btn btn-primary" href="#contact" data-offset>Contact me</a>
-          </p>
-        </div>
-        <div class="hero-stats">
-          <div class="stat-box">
-            <div class="stat-number">4<span class="stat-plus">+</span></div>
-            <div class="stat-label">Real-world Projects</div>
-          </div>
-          <div class="stat-box">
-            <div class="stat-number">3<span class="stat-plus">+</span></div>
-            <div class="stat-label">Published Apps</div>
-          </div>
-          <div class="stat-box">
-            <div class="stat-number">4<span class="stat-plus">+</span></div>
-            <div class="stat-label">Years Experience</div>
-          </div>
-        </div>
-      </div>
-    </section>
+<!-- Navigation Component -->
+<div id="nav-component"></div>
 
-    <!-- TAGLINE SECTION -->
-    <section class="section tagline-section">
-      <div class="container tagline-content">
-        <div class="tagline-badge">
-          <img src="assets/HUNC9113 (1).jpg" alt="Judson Mutabazi profile" class="profile-photo">
-        </div>
-        <h2>Motivated. Detail-oriented. Community-driven.</h2>
-        <p>Dedicated to creating inclusive digital solutions that make a difference across East Africa.</p>
-      </div>
-    </section>
+<!-- Hero Component -->
+<div id="hero-component"></div>
 
-    <!-- ABOUT -->
-    <section id="about" class="section about-section">
-      <div class="container">
-        <h2>Skills & Tools</h2>
-        <p class="lead">Technologies I work with.</p>
-        <div class="skills-grid">
-          <div class="skill" data-percent="68">
-            <div class="skill-label">HTML &amp; CSS</div>
-            <div class="skill-bar"><div class="skill-fill" style="width:0%"></div></div>
-            <div class="skill-percent">68%</div>
-          </div>
+<!-- About Component -->
+<div id="about-component"></div>
 
-          <div class="skill" data-percent="65">
-            <div class="skill-label">JavaScript</div>
-            <div class="skill-bar"><div class="skill-fill" style="width:0%"></div></div>
-            <div class="skill-percent">65%</div>
-          </div>
+<!-- Skills Component -->
+<div id="skills-component"></div>
 
-          <div class="skill" data-percent="70">
-            <div class="skill-label">React / Frontend</div>
-            <div class="skill-bar"><div class="skill-fill" style="width:0%"></div></div>
-            <div class="skill-percent">70%</div>
-          </div>
+<!-- Experience Component -->
+<div id="experience-component"></div>
 
-          <div class="skill" data-percent="69">
-            <div class="skill-label">Node.js / Backend</div>
-            <div class="skill-bar"><div class="skill-fill" style="width:0%"></div></div>
-            <div class="skill-percent">69%</div>
-          </div>
+<!-- Projects Component -->
+<div id="projects-component"></div>
 
-          <div class="skill" data-percent="50">
-            <div class="skill-label">Databases (SQL)</div>
-            <div class="skill-bar"><div class="skill-fill" style="width:0%"></div></div>
-            <div class="skill-percent">50%</div>
-          </div>
+<!-- Blog Component -->
+<div id="blog-component"></div>
 
-          <div class="skill" data-percent="86">
-            <div class="skill-label">Problem Solving</div>
-            <div class="skill-bar"><div class="skill-fill" style="width:0%"></div></div>
-            <div class="skill-percent">86%</div>
-          </div>
-        </div>
-      </div>
-    </section>
+<!-- Testimonials Component -->
+<div id="testimonials-component"></div>
 
-    <!-- EXPERIENCE TIMELINE -->
-    <section class="section experience-section">
-      <div class="container">
-        <h2>Experience Timeline</h2>
-        <p class="lead">My professional journey.</p>
-        <div class="timeline">
-          <div class="timeline-item">
-            <div class="timeline-dot"></div>
-            <div class="timeline-content">
-              <h3>Junior Software Engineer</h3>
-              <p class="timeline-date">2023 — Present</p>
-              <p>Building responsive web applications, developing full-stack features, and collaborating with teams to deliver quality software solutions.</p>
-            </div>
-          </div>
+<!-- Contact Component -->
+<div id="contact-component"></div>
 
-          <div class="timeline-item">
-            <div class="timeline-dot"></div>
-            <div class="timeline-content">
-              <h3>Software Development Student</h3>
-              <p class="timeline-date">2021 — 2023</p>
-              <p>Completed diploma in software development with focus on web technologies, database design, and software architecture principles.</p>
-            </div>
-          </div>
+<!-- Footer Component -->
+<div id="footer-component"></div>
 
-          <div class="timeline-item">
-            <div class="timeline-dot"></div>
-            <div class="timeline-content">
-              <h3>Freelance Developer</h3>
-              <p class="timeline-date">2022 — 2023</p>
-              <p>Developed custom websites and web applications for local businesses, gaining practical experience in full-stack development.</p>
-            </div>
-          </div>
+<!-- Scripts -->
+<script src="js/script.js"></script>
+<script>
+// Component Loader
+async function loadComponent(componentId, componentPath) {
+  try {
+    const response = await fetch(componentPath);
+    const html = await response.text();
+    document.getElementById(componentId).innerHTML = html;
+  } catch (error) {
+    console.error(`Error loading component ${componentId}:`, error);
+  }
+}
 
-          <div class="timeline-item">
-            <div class="timeline-dot"></div>
-            <div class="timeline-content">
-              <h3>Technical Support Specialist</h3>
-              <p class="timeline-date">2020 — 2021</p>
-              <p>Provided technical assistance to clients, troubleshot issues, and communicated complex technical information clearly.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+// Load all components
+async function loadAllComponents() {
+  const components = [
+    { id: 'nav-component', path: 'components/nav.html' },
+    { id: 'hero-component', path: 'components/hero.html' },
+    { id: 'about-component', path: 'components/about.html' },
+    { id: 'skills-component', path: 'components/skills.html' },
+    { id: 'experience-component', path: 'components/experience.html' },
+    { id: 'projects-component', path: 'components/projects.html' },
+    { id: 'blog-component', path: 'components/blog.html' },
+    { id: 'testimonials-component', path: 'components/testimonials.html' },
+    { id: 'contact-component', path: 'components/contact.html' },
+    { id: 'footer-component', path: 'components/footer.html' }
+  ];
 
-    <!-- PROJECTS -->
-    <section id="projects" class="section projects-section">
-      <div class="container">
-        <h2>Projects</h2>
-        <p class="lead">Selected projects — click View Details for more.</p>
-        <div class="projects-grid">
+  // Load components in parallel
+  await Promise.all(components.map(comp => loadComponent(comp.id, comp.path)));
 
-          <!-- PROJECT CARD 1 -->
-          <article class="project-card" tabindex="0">
-            <img src="assets/project1.svg" alt="Project 1 thumbnail" class="project-thumb">
-            <div class="project-body">
-              <h3>RDL Candidate Results System</h3>
-              <p>The Rwanda Driving Licence (RDL) Candidate Results System is an online platform used by candidates to check the results of their driving licence theory and practical exams. The system helps the Rwanda National Police (RNP) and testing centers publish exam results quickly, accurately, and securely.</p>
-              <div class="project-actions">
-                <a class="btn" href="https://github.com/mutabazijudson/RDL_Candidate_Results_System" aria-disabled="true">View Project</a>
-                <button class="btn ghost view-details" data-project='{"title":"RDL Candidate Results System","desc":"The Rwanda Driving Licence (RDL) Candidate Results System is an online platform used by candidates to check the results of their driving licence theory and practical exams. The system helps the Rwanda National Police (RNP) and testing centers publish exam results quickly, accurately, and securely.","tech":"HTML, CSS, JS, Node.js, SQLite","img":"assets/project1.svg","link":"https://github.com/mutabazijudson/RDL_Candidate_Results_System"}'>View Details</button>
-              </div>
-            </div>
-          </article>
+  // Initialize animations after components are loaded
+  initializeAnimations();
+}
 
-          <!-- PROJECT CARD 2 -->
-          <article class="project-card" tabindex="0">
-            <img src="assets/project2.svg" alt="Project 2 thumbnail" class="project-thumb">
-            <div class="project-body">
-              <h3>AI-tryon-hairstyle</h3>
-              <p>AI-powered virtual hairstyle try-on tool that lets users preview different hairstyles in real time.</p>
-              <div class="project-actions">
-                <a class="btn" href="https://github.com/mutabazijudson/AI-tryon-hairstyle" aria-disabled="true">View Project</a>
-                <button class="btn ghost view-details" data-project='{"title":"AI-tryon-hairstyle","desc":"AI-powered virtual hairstyle try-on tool that lets users preview different hairstyles in real time.","tech":"HTML, CSS, JS","img":"assets/project2.svg","link":"https://github.com/mutabazijudson/AI-tryon-hairstyle"}'>View Details</button>
-              </div>
-            </div>
-          </article>
+// Initialize scroll animations
+function initializeAnimations() {
+  const observerOptions = {
+    threshold: 0.1,
+    rootMargin: '0px 0px -50px 0px'
+  };
 
-          <!-- PROJECT CARD 3 -->
-          <article class="project-card" tabindex="0">
-            <img src="assets/project3.svg" alt="Project 3 thumbnail" class="project-thumb">
-            <div class="project-body">
-              <h3>MinStore</h3>
-              <p>MinStore is a full-stack store management system that helps businesses manage products, inventory, and sales efficiently. It features a user-friendly interface, real-time stock tracking, and simple sales recording, making daily store operations easier and more organized. Built for speed, reliability, and scalability.</p>
-              <div class="project-actions">
-                <a class="btn" href="https://github.com/mutabazijudson/MinStore" aria-disabled="true">View Project</a>
-                <button class="btn ghost view-details" data-project='{"title":"MinStore","desc":"MinStore is a full-stack store management system that helps businesses manage products, inventory, and sales efficiently. It features a user-friendly interface, real-time stock tracking, and simple sales recording, making daily store operations easier and more organized. Built for speed, reliability, and scalability.","tech":"HTML, CSS, JS","img":"assets/project3.svg","link":"https://github.com/mutabazijudson/MinStore"}'>View Details</button>
-              </div>
-            </div>
-          </article>
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, observerOptions);
 
-        </div>
-      </div>
-    </section>
+  // Observe all elements with fade-up class
+  document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+}
 
-    <!-- CONTACT -->
-    <section id="contact" class="section contact-section">
-      <div class="container">
-        <h2>Contact</h2>
-        <p class="lead">Send a message — I will reply as soon as possible.</p>
-        <form id="contactForm" novalidate>
-          <div class="form-row">
-            <label for="name">Name</label>
-            <input id="name" name="name" type="text" inputmode="text" required aria-required="true" aria-describedby="nameHelp">
-            <small id="nameHelp" class="form-help">Use letters and spaces only.</small>
-          </div>
-          <div class="form-row">
-            <label for="email">Email</label>
-            <input id="email" name="email" type="email" required aria-required="true">
-          </div>
-          <div class="form-row">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="5" maxlength="500" required aria-required="true"></textarea>
-            <small class="char-count" id="charCount">0 / 500</small>
-          </div>
-          <div class="form-row">
-            <button class="btn" id="submitBtn" type="submit">Send Message</button>
-          </div>
-        </form>
-      </div>
-    </section>
-  </main>
+// Load components when DOM is ready
+document.addEventListener('DOMContentLoaded', loadAllComponents);
+</script>
 
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <p>Built by <strong>Judson MUTABAZI</strong> — <span class="muted">Junior Software Engineer</span></p>
-      <p class="social">Connect:
-        <a href="https://github.com/mutabazijudson" target="_blank" rel="noreferrer noopener">GitHub</a>
-        <a href="https://www.linkedin.com/in/mutabazi-judson-423651301/" target="_blank" rel="noreferrer noopener">LinkedIn</a>
-      </p>
-    </div>
-  </footer>
-
-  <!-- PROJECT DETAILS MODAL -->
-  <div id="projModal" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
-    <div class="modal-content" role="document">
-      <button class="modal-close" id="modalClose" aria-label="Close project details">✕</button>
-      <div class="modal-body">
-        <!-- content populated by JS -->
-      </div>
-    </div>
-  </div>
-
-  <!-- SUCCESS TOAST -->
-  <div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
-
-  <script src="js/script.js"></script>
 </body>
 </html>
