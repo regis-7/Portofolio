@@ -1,4 +1,4 @@
-# Judson Mutabazi Portfolio
+# Regis Niyokwizerwa Portfolio
 
 A responsive personal portfolio website showcasing skills, projects, and contact details.
 
@@ -41,7 +41,7 @@ This portfolio includes a clean landing page with:
 This repository is ready to deploy on GitHub Pages or any static hosting platform.
 
 ## Author
-Judson Mutabazi
+Regis Niyokwizerwa
 
 ## GitHub
 https://github.com/mutabazijudson/Portfolio
