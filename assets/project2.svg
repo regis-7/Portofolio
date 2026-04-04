@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360">
+  <rect width="100%" height="100%" fill="#071021"/>
+  <g transform="translate(30 30)">
+    <rect width="540" height="300" rx="14" fill="#071824" stroke="#60a5fa" stroke-width="4" />
+    <text x="40" y="70" fill="#cfeeed" font-size="26" font-family="sans-serif">AI-tryon-hairstyle</text>
+    <rect x="40" y="100" width="360" height="12" rx="6" fill="#0b1220"/>
+    <rect x="40" y="130" width="220" height="12" rx="6" fill="#0b1220"/>
+  </g>
+</svg>

@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MUTABAZI Judson — Personal Portfolio</title>
+  <meta name="description" content="Judson's personal portfolio" />
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <a class="brand" href="#home">Judson</a>
+      <button class="nav-toggle" id="navToggle" aria-controls="primaryNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav id="primaryNav" class="primary-nav" role="navigation">
+        <ul>
+          <li><a href="#home" data-offset>Home</a></li>
+          <li><a href="#about" data-offset>About</a></li>
+          <li><a href="#projects" data-offset>Projects</a></li>
+          <li><a href="#contact" data-offset>Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section id="home" class="section home-section" tabindex="-1">
+      <div class="container home-grid">
+        <div class="home-text">
+          <h1>Hi, I'm <span class="accent">Judson</span></h1>
+          <p class="title">Junior Software Engineer</p>
+          <p class="bio">I build responsive websites and small web apps. Passionate about improving services with technology in Rwanda and Africa.</p>
+          <p>
+            <a class="btn" href="#projects" data-offset>View Projects</a>
+            <a class="btn ghost" href="#contact" data-offset>Contact Me</a>
+          </p>
+        </div>
+        <div class="home-image" aria-hidden="false">
+          <img src="assets/HUNC9113 (1).jpg" alt="Judson profile illustration" width="320" height="320">
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        <h2>About</h2>
+        <p class="lead">Background, education and skills.</p>
+        <div class="about-grid">
+          <div>
+            <h3>Background</h3>
+            <p>I recently completed a diploma in software development. I love building reliable, accessible interfaces and automations that help people work better.</p>
+
+            <h3>Education</h3>
+            <ul>
+              <li>Diploma — Software Development</li>
+              <li>Self-study: JavaScript, HTML, CSS, Node.js</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Skills</h3>
+            <div class="skill" data-percent="90" aria-hidden="false">
+              <div class="skill-label">HTML &amp; CSS</div>
+              <div class="skill-bar" aria-hidden="true"><div class="skill-fill" style="width:0%"></div></div>
+            </div>
+
+            <div class="skill" data-percent="80">
+              <div class="skill-label">JavaScript</div>
+              <div class="skill-bar"><div class="skill-fill" style="width:0%"></div></div>
+            </div>
+
+            <div class="skill" data-percent="70">
+              <div class="skill-label">React / Frontend</div>
+              <div class="skill-bar"><div class="skill-fill" style="width:0%"></div></div>
+            </div>
+
+            <div class="skill" data-percent="70">
+              <div class="skill-label">Databases</div>
+              <div class="skill-bar"><div class="skill-fill" style="width:0%"></div></div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        <h2>Projects</h2>
+        <p class="lead">Selected projects — click View Details for more.</p>
+        <div class="projects-grid">
+
+          <!-- PROJECT CARD 1 -->
+          <article class="project-card" tabindex="0">
+            <img src="assets/project1.svg" alt="Project 1 thumbnail" class="project-thumb">
+            <div class="project-body">
+              <h3>RDL Candidate Results System</h3>
+              <p>The Rwanda Driving Licence (RDL) Candidate Results System is an online platform used by candidates to check the results of their driving licence theory and practical exams. The system helps the Rwanda National Police (RNP) and testing centers publish exam results quickly, accurately, and securely.</p>
+              <div class="project-actions">
+                <a class="btn" href="https://github.com/mutabazijudson/RDL_Candidate_Results_System" aria-disabled="true">View Project</a>
+                <button class="btn ghost view-details" data-project='{"title":"RDL Candidate Results System","desc":"The Rwanda Driving Licence (RDL) Candidate Results System is an online platform used by candidates to check the results of their driving licence theory and practical exams. The system helps the Rwanda National Police (RNP) and testing centers publish exam results quickly, accurately, and securely.","tech":"HTML, CSS, JS, Node.js, SQLite","img":"assets/project1.svg","link":"https://github.com/mutabazijudson/RDL_Candidate_Results_System"}'>View Details</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT CARD 2 -->
+          <article class="project-card" tabindex="0">
+            <img src="assets/project2.svg" alt="Project 2 thumbnail" class="project-thumb">
+            <div class="project-body">
+              <h3>AI-tryon-hairstyle</h3>
+              <p>AI-powered virtual hairstyle try-on tool that lets users preview different hairstyles in real time.</p>
+              <div class="project-actions">
+                <a class="btn" href="https://github.com/mutabazijudson/AI-tryon-hairstyle" aria-disabled="true">View Project</a>
+                <button class="btn ghost view-details" data-project='{"title":"AI-tryon-hairstyle","desc":"AI-powered virtual hairstyle try-on tool that lets users preview different hairstyles in real time.","tech":"HTML, CSS, JS","img":"assets/project2.svg","link":"https://github.com/mutabazijudson/AI-tryon-hairstyle"}'>View Details</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT CARD 3 -->
+          <article class="project-card" tabindex="0">
+            <img src="assets/project3.svg" alt="Project 3 thumbnail" class="project-thumb">
+            <div class="project-body">
+              <h3>MinStore</h3>
+              <p>MinStore is a full-stack store management system that helps businesses manage products, inventory, and sales efficiently. It features a user-friendly interface, real-time stock tracking, and simple sales recording, making daily store operations easier and more organized. Built for speed, reliability, and scalability.</p>
+              <div class="project-actions">
+                <a class="btn" href="https://github.com/mutabazijudson/MinStore" aria-disabled="true">View Project</a>
+                <button class="btn ghost view-details" data-project='{"title":"MinStore","desc":"MinStore is a full-stack store management system that helps businesses manage products, inventory, and sales efficiently. It features a user-friendly interface, real-time stock tracking, and simple sales recording, making daily store operations easier and more organized. Built for speed, reliability, and scalability.","tech":"HTML, CSS, JS","img":"assets/project3.svg","link":"https://github.com/mutabazijudson/MinStore"}'>View Details</button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <h2>Contact</h2>
+        <p class="lead">Send a message — I will reply as soon as possible.</p>
+        <form id="contactForm" novalidate>
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" inputmode="text" required aria-required="true" aria-describedby="nameHelp">
+            <small id="nameHelp" class="form-help">Use letters and spaces only.</small>
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required aria-required="true">
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" maxlength="500" required aria-required="true"></textarea>
+            <small class="char-count" id="charCount">0 / 500</small>
+          </div>
+          <div class="form-row">
+            <button class="btn" id="submitBtn" type="submit">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>Built by <strong>Judson MUTABAZI</strong> — <span class="muted">Junior Software Engineer</span></p>
+      <p class="social">Connect:
+        <a href="https://github.com/mutabazijudson" target="_blank" rel="noreferrer noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/mutabazi-judson-423651301/" target="_blank" rel="noreferrer noopener">LinkedIn</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- PROJECT DETAILS MODAL -->
+  <div id="projModal" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-content" role="document">
+      <button class="modal-close" id="modalClose" aria-label="Close project details">✕</button>
+      <div class="modal-body">
+        <!-- content populated by JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- SUCCESS TOAST -->
+  <div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
