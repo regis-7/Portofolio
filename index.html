@@ -28,61 +28,130 @@
   <main>
     <!-- HOME -->
     <section id="home" class="section home-section" tabindex="-1">
-      <div class="container home-grid">
-        <div class="home-text">
-          <h1>Hi, I'm <span class="accent">Judson</span></h1>
-          <p class="title">Junior Software Engineer</p>
-          <p class="bio">I build responsive websites and small web apps. Passionate about improving services with technology in Rwanda and Africa.</p>
-          <p>
-            <a class="btn" href="#projects" data-offset>View Projects</a>
-            <a class="btn ghost" href="#contact" data-offset>Contact Me</a>
+      <div class="container home-hero">
+        <div class="hero-text">
+          <h1>
+            <span class="hero-line">JUDSON</span>
+            <span class="hero-line accent">MUTABAZI</span>
+          </h1>
+          <p class="hero-bio">Crafting digital experiences, solving real-world problems, advancing Rwanda's tech ecosystem through thoughtful design and code.</p>
+          <p class="hero-cta">
+            <a class="btn btn-primary" href="#contact" data-offset>Contact me</a>
           </p>
         </div>
-        <div class="home-image" aria-hidden="false">
-          <img src="assets/HUNC9113 (1).jpg" alt="Judson profile illustration" width="320" height="320">
+        <div class="hero-stats">
+          <div class="stat-box">
+            <div class="stat-number">4<span class="stat-plus">+</span></div>
+            <div class="stat-label">Real-world Projects</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-number">3<span class="stat-plus">+</span></div>
+            <div class="stat-label">Published Apps</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-number">4<span class="stat-plus">+</span></div>
+            <div class="stat-label">Years Experience</div>
+          </div>
         </div>
+      </div>
+    </section>
+
+    <!-- TAGLINE SECTION -->
+    <section class="section tagline-section">
+      <div class="container tagline-content">
+        <div class="tagline-badge">
+          <img src="assets/HUNC9113 (1).jpg" alt="Judson Mutabazi profile" class="profile-photo">
+        </div>
+        <h2>Motivated. Detail-oriented. Community-driven.</h2>
+        <p>Dedicated to creating inclusive digital solutions that make a difference across East Africa.</p>
       </div>
     </section>
 
     <!-- ABOUT -->
     <section id="about" class="section about-section">
       <div class="container">
-        <h2>About</h2>
-        <p class="lead">Background, education and skills.</p>
-        <div class="about-grid">
-          <div>
-            <h3>Background</h3>
-            <p>I recently completed a diploma in software development. I love building reliable, accessible interfaces and automations that help people work better.</p>
-
-            <h3>Education</h3>
-            <ul>
-              <li>Diploma — Software Development</li>
-              <li>Self-study: JavaScript, HTML, CSS, Node.js</li>
-            </ul>
+        <h2>Skills & Tools</h2>
+        <p class="lead">Technologies I work with.</p>
+        <div class="skills-grid">
+          <div class="skill" data-percent="68">
+            <div class="skill-label">HTML &amp; CSS</div>
+            <div class="skill-bar"><div class="skill-fill" style="width:0%"></div></div>
+            <div class="skill-percent">68%</div>
           </div>
 
-          <div>
-            <h3>Skills</h3>
-            <div class="skill" data-percent="90" aria-hidden="false">
-              <div class="skill-label">HTML &amp; CSS</div>
-              <div class="skill-bar" aria-hidden="true"><div class="skill-fill" style="width:0%"></div></div>
-            </div>
+          <div class="skill" data-percent="65">
+            <div class="skill-label">JavaScript</div>
+            <div class="skill-bar"><div class="skill-fill" style="width:0%"></div></div>
+            <div class="skill-percent">65%</div>
+          </div>
 
-            <div class="skill" data-percent="80">
-              <div class="skill-label">JavaScript</div>
-              <div class="skill-bar"><div class="skill-fill" style="width:0%"></div></div>
-            </div>
+          <div class="skill" data-percent="70">
+            <div class="skill-label">React / Frontend</div>
+            <div class="skill-bar"><div class="skill-fill" style="width:0%"></div></div>
+            <div class="skill-percent">70%</div>
+          </div>
 
-            <div class="skill" data-percent="70">
-              <div class="skill-label">React / Frontend</div>
-              <div class="skill-bar"><div class="skill-fill" style="width:0%"></div></div>
-            </div>
+          <div class="skill" data-percent="69">
+            <div class="skill-label">Node.js / Backend</div>
+            <div class="skill-bar"><div class="skill-fill" style="width:0%"></div></div>
+            <div class="skill-percent">69%</div>
+          </div>
 
-            <div class="skill" data-percent="70">
-              <div class="skill-label">Databases</div>
-              <div class="skill-bar"><div class="skill-fill" style="width:0%"></div></div>
-            </div>
+          <div class="skill" data-percent="50">
+            <div class="skill-label">Databases (SQL)</div>
+            <div class="skill-bar"><div class="skill-fill" style="width:0%"></div></div>
+            <div class="skill-percent">50%</div>
+          </div>
 
+          <div class="skill" data-percent="86">
+            <div class="skill-label">Problem Solving</div>
+            <div class="skill-bar"><div class="skill-fill" style="width:0%"></div></div>
+            <div class="skill-percent">86%</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE TIMELINE -->
+    <section class="section experience-section">
+      <div class="container">
+        <h2>Experience Timeline</h2>
+        <p class="lead">My professional journey.</p>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Junior Software Engineer</h3>
+              <p class="timeline-date">2023 — Present</p>
+              <p>Building responsive web applications, developing full-stack features, and collaborating with teams to deliver quality software solutions.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Software Development Student</h3>
+              <p class="timeline-date">2021 — 2023</p>
+              <p>Completed diploma in software development with focus on web technologies, database design, and software architecture principles.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Freelance Developer</h3>
+              <p class="timeline-date">2022 — 2023</p>
+              <p>Developed custom websites and web applications for local businesses, gaining practical experience in full-stack development.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Technical Support Specialist</h3>
+              <p class="timeline-date">2020 — 2021</p>
+              <p>Provided technical assistance to clients, troubleshot issues, and communicated complex technical information clearly.</p>
+            </div>
           </div>
         </div>
       </div>
