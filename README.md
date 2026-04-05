@@ -44,4 +44,4 @@ This repository is ready to deploy on GitHub Pages or any static hosting platfor
 Regis Niyokwizerwa
 
 ## GitHub
-https://github.com/mutabazijudson/Portfolio
+Contributor: https://github.com/regis-7
